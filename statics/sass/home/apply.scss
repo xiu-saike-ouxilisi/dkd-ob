@@ -1,0 +1,91 @@
+.apply {
+    width: 100%;
+    padding-bottom: 70px;
+    background-color: #FEEFEF;
+
+    .container {
+
+        .apply_down{
+            .item {
+                padding: 0;
+                text-align: center;
+
+                img {
+                    width: 34%;
+                    height: auto;
+                }
+
+                section {
+                    margin-top: 10px;
+                    font-size: 20px;
+                    font-family: Microsoft YaHei Regular, Microsoft YaHei Regular-Regular;
+                    font-weight: 400;
+                    text-align: center;
+                    color: #f82424;;
+                }
+            }
+            
+        }
+        .apply_down2{
+            margin-top: 80px;
+            .item {
+                padding: 0;
+                text-align: center;
+
+                img {
+                    width: 34%;
+                    height: auto;
+                }
+
+                section {
+                    margin-top: 10px;
+                    font-size: 20px;
+                    font-family: Microsoft YaHei Regular, Microsoft YaHei Regular-Regular;
+                    font-weight: 400;
+                    text-align: center;
+                    color: #f82424;;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .apply {
+        padding-bottom: 30px;
+        .container {
+            .apply_down {
+                .item {
+                    text-align: center;
+                    margin-top: 20px;
+
+                    img {
+                        width: 40%;
+                    }
+
+                    section {
+                        margin-top: 10px;
+                        font-size: 16px;
+                    }
+                }
+            }
+            .apply_down2 {
+                margin-top:0;
+                .item {
+                    text-align: center;
+                    margin-top: 20px;
+
+                    img {
+                        width: 40%;
+                    }
+
+                    section {
+                        margin-top: 10px;
+                        font-size: 16px;
+                    }
+                }
+            }
+
+        }
+    }
+}

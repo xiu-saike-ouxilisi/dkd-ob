@@ -1,0 +1,69 @@
+.qualifications {
+  width: 100%;
+  padding-bottom: 70px; }
+  .qualifications .container .qualifications_down .swiper-container .swiper-wrapper {
+    transition-timing-function: linear; }
+    .qualifications .container .qualifications_down .swiper-container .swiper-wrapper .swiper-slide {
+      padding: 0; }
+      .qualifications .container .qualifications_down .swiper-container .swiper-wrapper .swiper-slide img {
+        width: 100%;
+        height: auto; }
+  .qualifications .container .qualifications_down .swiper-container .down_operation {
+    display: flex;
+    margin-top: 40px;
+    justify-content: center;
+    text-align: center; }
+    .qualifications .container .qualifications_down .swiper-container .down_operation .down_operation_left {
+      outline: none !important;
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      border: 1px solid #f82424;
+      cursor: pointer;
+      margin-right: 30px;
+      padding-top: 10px; }
+      .qualifications .container .qualifications_down .swiper-container .down_operation .down_operation_left img {
+        margin: 0 auto;
+        width: 30%;
+        height: auto; }
+    .qualifications .container .qualifications_down .swiper-container .down_operation .down_operation_center {
+      line-height: 50px;
+      width: 200px;
+      border: 1px solid  #f70c0c;
+      font-size: 24px;
+      border-radius: 50px;
+      font-family: Microsoft YaHei Regular, Microsoft YaHei Regular-Regular;
+      font-weight: 400;
+      color: #f70c0c;
+      letter-spacing: 3px; }
+    .qualifications .container .qualifications_down .swiper-container .down_operation .down_operation_right {
+      margin-left: 30px;
+      outline: none !important;
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      border: 1px solid #f82424;
+      cursor: pointer;
+      padding-top: 10px; }
+      .qualifications .container .qualifications_down .swiper-container .down_operation .down_operation_right img {
+        margin: 0 auto;
+        width: 30%;
+        height: auto; }
+
+@media (max-width: 768px) {
+  .qualifications {
+    padding: 0 5%; }
+    .qualifications .container .qualifications_down .swiper-container .down_operation .down_operation_left {
+      width: 30px;
+      height: 30px;
+      padding-top: 6px; }
+    .qualifications .container .qualifications_down .swiper-container .down_operation .down_operation_center {
+      line-height: 30px;
+      width: 160px;
+      font-size: 16px; }
+    .qualifications .container .qualifications_down .swiper-container .down_operation .down_operation_right {
+      width: 30px;
+      height: 30px;
+      padding-top: 6px; } }
+
+/*# sourceMappingURL=qualifications.css.map */

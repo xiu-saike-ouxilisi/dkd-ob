@@ -1,0 +1,34 @@
+.agent {
+  width: 100%;
+  padding-bottom: 70px; }
+  .agent .container .agent_dowm {
+    padding: 0;
+    text-align: center; }
+    .agent .container .agent_dowm .item {
+      padding: 0;
+      text-align: center; }
+      .agent .container .agent_dowm .item img {
+        margin: 0 auto;
+        border: 1px solid #f70c0c;
+        width: 100%;
+        height: auto; }
+      .agent .container .agent_dowm .item .agent_bg_pc {
+        display: block; }
+      .agent .container .agent_dowm .item .agent_bg_phone {
+        display: none; }
+
+@media (max-width: 768px) {
+  .agent {
+    padding-bottom: 30px; }
+    .agent .container .agent_dowm .item {
+      padding: 0;
+      text-align: center; }
+      .agent .container .agent_dowm .item img {
+        width: 90%;
+        height: auto; }
+      .agent .container .agent_dowm .item .agent_bg_pc {
+        display: none; }
+      .agent .container .agent_dowm .item .agent_bg_phone {
+        display: block; } }
+
+/*# sourceMappingURL=agent.css.map */

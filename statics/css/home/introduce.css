@@ -1,0 +1,95 @@
+.introduce {
+  width: 100%;
+  padding-bottom: 70px; }
+  .introduce .introduce_down .introduce_left {
+    padding-left: 20px; }
+    .introduce .introduce_down .introduce_left h1 {
+      padding: 0;
+      margin: 0;
+      width: 180px;
+      font-size: 28px;
+      font-weight: 700;
+      text-align: left;
+      color: #333333;
+      position: relative; }
+    .introduce .introduce_down .introduce_left h1::after {
+      position: absolute;
+      top: 0;
+      left: -20px;
+      content: '';
+      width: 8px;
+      height: 30px;
+      background-color: red; }
+    .introduce .introduce_down .introduce_left h3 {
+      font-size: 24px;
+      font-family: Microsoft YaHei Regular, Microsoft YaHei Regular-Regular;
+      font-weight: 550;
+      text-align: left;
+      color: #333333;
+      margin: 0;
+      margin-top: 22px; }
+    .introduce .introduce_down .introduce_left .fir {
+      margin-top: 40px; }
+    .introduce .introduce_down .introduce_left p {
+      margin: 0;
+      margin-top: 10px;
+      width: 90%;
+      font-size: 14px;
+      font-weight: 400;
+      text-align: left;
+      font-family: Microsoft YaHei Regular, Microsoft YaHei Regular-Regular;
+      font-weight: 400;
+      text-align: left;
+      color: #666666; }
+  .introduce .introduce_down .introduce_right {
+    padding: 0;
+    margin: 0;
+    padding-left: 30px;
+    position: relative; }
+    .introduce .introduce_down .introduce_right .introduce_pc {
+      display: block; }
+    .introduce .introduce_down .introduce_right .introduce_phone {
+      display: none; }
+    .introduce .introduce_down .introduce_right .bgc {
+      width: 70%;
+      height: 270px;
+      background-color: red;
+      position: absolute;
+      top: 60px;
+      right: -10px;
+      z-index: -1; }
+
+@media (max-width: 1200px) {
+  .introduce .introduce_down .introduce_right .bgc {
+    display: none; } }
+@media (max-width: 768px) {
+  .introduce {
+    padding-bottom: 30px; }
+    .introduce .introduce_down {
+      padding: 0 5%; }
+      .introduce .introduce_down .introduce_left h1 {
+        font-size: 24px; }
+      .introduce .introduce_down .introduce_left h1::after {
+        top: 0;
+        left: -20px;
+        width: 8px;
+        height: 30px; }
+      .introduce .introduce_down .introduce_left h3 {
+        margin-top: 16px;
+        font-size: 20px; }
+      .introduce .introduce_down .introduce_left p {
+        margin-top: 8px;
+        font-size: 14px; }
+      .introduce .introduce_down .introduce_right {
+        margin-top: 30px; }
+        .introduce .introduce_down .introduce_right .introduce_pc {
+          display: none; }
+        .introduce .introduce_down .introduce_right .introduce_phone {
+          display: block; }
+        .introduce .introduce_down .introduce_right .bgc {
+          display: block;
+          width: 78%;
+          height: 130px;
+          right: 0px; } }
+
+/*# sourceMappingURL=introduce.css.map */

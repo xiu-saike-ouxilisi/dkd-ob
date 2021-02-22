@@ -1,0 +1,312 @@
+// 底部
+.footer {
+    width: 100%;
+
+    .footer_top {
+        margin: 0;
+        padding: 0;
+        position: relative;
+
+        img {
+            width: 100%;
+            height: 360px;
+        }
+
+        .footer_top_content {
+            position: absolute;
+            top: 34%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+
+            h1 {
+                text-align: center;
+                font-size: 36px;
+                font-family: Microsoft YaHei Regular, Microsoft YaHei Regular-Regular;
+                font-weight: 400;
+                color: #ffffff;
+            }
+
+            .btn {
+                position: absolute;
+                top: 120px;
+                left: 50%;
+                transform: translate(-50%, 0);
+                font-size: 32px;
+                padding: 6px 40px;
+                font-family: Microsoft YaHei Regular, Microsoft YaHei Regular-Regular;
+                font-weight: 400;
+                border: 1px solid #f82424;;
+                border-radius: 50px;
+                color: #f82424;
+                background-color: #ffffff;
+
+                a {
+                    color: #f82424;
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+
+    .footer_down {
+        background-color: #1c1e2b;
+        margin: 0;
+        padding: 0;
+        margin-top: -2px;
+
+        .container {
+            .footer_middle {
+                padding-top: 60px;
+
+                .footer_middle_left {
+                    .logo {
+                        width: 150px;
+                        height: auto;
+                    }
+
+                    h4 {
+                        margin-top: 20px;
+                        font-size: 16px;
+                        font-family: Microsoft YaHei Regular, Microsoft YaHei Regular-Regular;
+                        font-weight: 400;
+                        text-align: left;
+                        color: #ffffff;
+                    }
+
+                    .code {
+                        margin-top: 20px;
+                        width: 100px;
+                        height: auto;
+                    }
+
+                    section {
+                        margin-top: 20px;
+                        font-size: 16px;
+                        font-family: Microsoft YaHei Bold, Microsoft YaHei Bold-Bold;
+                        font-weight: 700;
+                        text-align: left;
+                        color: #ffffff;
+                    }
+
+                }
+
+                .footer_middle_center {
+                    display: flex;
+
+                    ul {
+                        margin-top: 10px;
+
+                        li {
+                            width: 100px;
+                            margin-left: 50px;
+                            margin-top: 10px;
+                            font-size: 16px;
+                            font-family: Microsoft YaHei Bold, Microsoft YaHei Bold-Bold;
+                            font-weight: 700;
+                            text-align: left;
+
+                            a {
+                                text-decoration: none;
+                                color: #999999;
+                            }
+                        }
+
+                        li:hover {
+                            a {
+                                color: #999999;
+                            }
+                        }
+
+                        li:nth-child(1) {
+                            a {
+                                color: #ffffff;
+                            }
+                        }
+
+                        li:nth-child(2) {
+                            margin-top: 20px;
+                        }
+
+
+                    }
+                }
+
+                .footer_middle_right {
+                    display: flex;
+                    ul {
+                        margin-top: 10px;
+
+                        li {
+                            margin-left: 50px;
+                            max-width: 200px;
+                            margin-top: 10px;
+                            font-size: 16px;
+                            font-family: Microsoft YaHei Bold, Microsoft YaHei Bold-Bold;
+                            font-weight: 700;
+                            text-align: left;
+
+                            a {
+                                text-decoration: none;
+                                color: #ffffff;
+                            }
+                        }
+
+                        li:hover {
+                            a {
+                                color: #ffffff;
+                            }
+                        }
+
+                        li:nth-child(2) {
+                            margin-top: 18px;
+                        }
+                    }
+
+                    ul:nth-child(1) {
+                        li {
+                            color: #999999;
+
+                            a {
+                                color: #999999;
+                            }
+                        }
+
+                        li:nth-child(1) {
+                            color: #ffffff;
+
+                            a {
+                                color: #ffffff;
+                            }
+                        }
+                    }
+
+                    ul:nth-child(2) {
+                        li {
+                            margin-left: 50px;
+                        }
+                    }
+                }
+            }
+
+            .footer_last {
+                margin-top: 50px;
+                padding-bottom: 40px;
+                font-size: 12px;
+                font-family: Microsoft YaHei Regular, Microsoft YaHei Regular-Regular;
+                font-weight: bold;
+                text-align: center;
+                color: #999999;
+                line-height: 32px;
+                letter-spacing: 1px;
+            }
+
+        }
+
+    }
+}
+
+@media (max-width: 992px) {
+    .footer {
+
+        .footer_top {
+
+            .footer_top_content {
+
+                h1 {
+                    font-size: 30px;
+                }
+
+                .btn {
+                    font-size: 26px;
+                    padding: 6px 40px;
+                }
+            }
+        }
+
+        .footer_down {
+            .container {
+                .footer_middle {
+                    .footer_middle_left {
+                        .logo {
+
+                        }
+
+                        h4 {
+                            margin-top: 20px;
+                            font-size: 16px;
+                        }
+                    }
+
+                    .footer_middle_center {
+                        ul {
+                            margin-top: 10px;
+                        }
+                    }
+
+                    .footer_middle_right {
+                        margin-top: 20px;
+
+                        ul {
+                            margin-top: 10px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 780px) {
+    .footer {
+        .footer_down {
+            padding: 0 4%;
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .footer {
+        .footer_top {
+            display: none;
+        }
+        .footer_down {
+            .container {
+                .footer_middle {
+                    padding-top: 60px;
+                    .footer_middle_left {
+                        padding-left: 40px;
+
+
+                    }
+
+                    .footer_middle_center {
+                        display: none;
+                        margin-top: 10px;
+                        ul {
+                            li {
+                                margin-left: 20px;
+                            }
+                        }
+                    }
+
+                    .footer_middle_right {
+                        ul {
+                            padding: 0;
+                            margin: 0;
+                            li {
+                                padding: 0;
+                                margin: 0;
+                                margin-left: 0!important;
+                                max-width: 330px;
+                                padding-left: 26px;
+                            }
+                        }
+                        ul:nth-child(1){
+                            display: none;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

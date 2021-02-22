@@ -1,0 +1,22 @@
+.process {
+  width: 100%;
+  padding-bottom: 70px; }
+  .process .container .process_down div {
+    padding: 0; }
+    .process .container .process_down div img {
+      width: 100%;
+      height: auto; }
+    .process .container .process_down div .pc {
+      display: block; }
+    .process .container .process_down div .phone {
+      display: none; }
+
+@media (max-width: 768px) {
+  .process {
+    padding-bottom: 30px; }
+    .process .container .process_down div .pc {
+      display: none; }
+    .process .container .process_down div .phone {
+      display: block; } }
+
+/*# sourceMappingURL=process.css.map */

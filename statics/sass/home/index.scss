@@ -1,0 +1,79 @@
+// 全局样式抹平
+@import '../../css/troweling.css';
+
+// bootstrap
+@import '../../css/bootstrap.min.css';
+
+// bootstrap 校验
+@import 'https://cdn.bootcdn.net/ajax/libs/bootstrap-validator/0.5.3/css/bootstrapValidator.css';
+
+// 轮播 swiper
+@import '../../css/swiper-bundle.min.css';
+
+// 通用样式
+@import '../currency/important.scss';
+
+// 导航栏
+@import '../currency/nav.scss';
+
+// 轮播
+@import '../currency/swiper.scss';
+.home_slides{
+    #carousel-example-generic{
+        .carousel-inner{
+            .item{
+                img{
+                    width: 100%;
+                    height: 800px;
+                }
+            }
+        }
+    }
+}
+@media (max-width: 768px){
+    .home_slides{
+        #carousel-example-generic{
+            .carousel-inner{
+                .item{
+                    img{
+                        width: 100%;
+                        height: auto;
+                    }
+                }
+            }
+        }
+    }
+}
+
+// 行业痛点
+@import './industry_pain_points.scss';
+
+// 项目介绍
+@import './introduce.scss';
+
+// 操作流程
+@import './process.scss';
+
+// 六大功能
+@import './function.scss';
+
+// 对比优势
+@import './advantage.scss';
+
+// 应用场景
+@import './scene.scss';
+
+// 适用行业
+@import './apply.scss';
+
+// 合作案例
+@import './cooperation.scss';
+
+// 品牌合作
+@import './brand.scss';
+
+// 底部
+@import '../currency/footer.scss';
+
+// 侧边栏
+@import '../currency/contact.scss';

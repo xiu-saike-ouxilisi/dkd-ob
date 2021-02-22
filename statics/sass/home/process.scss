@@ -1,0 +1,45 @@
+.process {
+    width: 100%;
+    padding-bottom: 70px;
+    // background-color: aqua;
+
+    .container {
+        .process_down {
+            div {
+                padding: 0;
+                img {
+                    width: 100%;
+                    height: auto;
+                }
+
+                .pc {
+                    display: block;
+                }
+
+                .phone {
+                    display: none;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .process {
+        padding-bottom: 30px;
+        .container {
+            .process_down {
+                div {
+                    .pc {
+                        display: none;
+                    }
+
+                    .phone {
+                        display: block;
+                    }
+                }
+
+            }
+        }
+    }
+}

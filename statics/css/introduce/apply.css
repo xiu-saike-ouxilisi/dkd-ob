@@ -1,0 +1,107 @@
+.apply {
+  width: 100%;
+  padding-bottom: 70px;
+  background-color: #feefef; }
+  .apply .container .apply_down {
+    position: relative; }
+    .apply .container .apply_down .item {
+      padding: 0;
+      margin: 0;
+      text-align: center;
+      z-index: 5; }
+      .apply .container .apply_down .item div {
+        margin: 0 auto;
+        padding: 0;
+        margin-bottom: 10px;
+        border: 1px solid #f70c0c;
+        border-radius: 50%;
+        width: 100px;
+        height: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center; }
+        .apply .container .apply_down .item div h1 {
+          margin: 0;
+          padding: 0;
+          text-align: center;
+          padding-top: 22px;
+          background-color: #f70c0c;
+          border-radius: 50%;
+          width: 75px;
+          height: 75px;
+          font-size: 26px;
+          font-family: Microsoft YaHei Bold, Microsoft YaHei Bold-Bold;
+          font-weight: 700;
+          color: #ffffff; }
+      .apply .container .apply_down .item section {
+        margin: 0;
+        padding: 0;
+        font-size: 24px;
+        font-family: Microsoft YaHei Regular, Microsoft YaHei Regular-Regular;
+        font-weight: 500;
+        text-align: center;
+        color: #de2226; }
+    .apply .container .apply_down .line {
+      position: absolute;
+      top: 28%;
+      left: 50%;
+      z-index: 2;
+      transform: translate(-50%, -50%);
+      border-bottom: 5px dashed #de2226; }
+    .apply .container .apply_down .line1 {
+      position: absolute;
+      top: 28%;
+      left: 50%;
+      z-index: 2;
+      transform: translate(-50%, -50%);
+      border-bottom: 5px dashed #de2226;
+      display: none; }
+    .apply .container .apply_down .line2 {
+      position: absolute;
+      top: 28%;
+      left: 50%;
+      z-index: 2;
+      transform: translate(-50%, -50%);
+      border-bottom: 5px dashed #de2226;
+      display: none; }
+
+@media (max-width: 768px) {
+  .apply {
+    padding-bottom: 30px; }
+    .apply .container .apply_down {
+      position: relative; }
+      .apply .container .apply_down .item {
+        margin-top: 20px; }
+        .apply .container .apply_down .item div {
+          margin: 0 auto;
+          margin-bottom: 10px;
+          width: 60px;
+          height: 60px; }
+          .apply .container .apply_down .item div h1 {
+            padding-top: 10px;
+            width: 45px;
+            height: 45px;
+            font-size: 22px; }
+        .apply .container .apply_down .item section {
+          margin-top: 8px;
+          font-size: 18px; }
+      .apply .container .apply_down .line {
+        display: none; }
+      .apply .container .apply_down .line1 {
+        display: block;
+        position: absolute;
+        top: 19%;
+        left: 50%;
+        z-index: 2;
+        transform: translate(-50%, -50%);
+        border-bottom: 5px dashed #de2226; }
+      .apply .container .apply_down .line2 {
+        display: block;
+        position: absolute;
+        top: 68%;
+        left: 50%;
+        z-index: 2;
+        transform: translate(-50%, -50%);
+        border-bottom: 5px dashed #de2226; } }
+
+/*# sourceMappingURL=apply.css.map */

@@ -1,0 +1,79 @@
+@import "https://common.zwwltkl.com/fonts/pingfang/pingfang.css";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  letter-spacing: 0.38px;
+  font-family: Microsoft YaHei Regular; }
+
+.container {
+  padding: 0; }
+
+.row {
+  margin-left: 0;
+  margin-right: 0;
+  padding: 0; }
+
+.homr,
+.introduce,
+.about {
+  width: 100%;
+  position: relative; }
+
+button {
+  outline: none !important; }
+
+.content_title {
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 46px; }
+  .content_title div {
+    position: relative; }
+    .content_title div img {
+      position: absolute;
+      top: 5px;
+      left: 50%;
+      transform: translate(-50%, 0);
+      width: 24%;
+      height: auto; }
+    .content_title div h1 {
+      padding: 0;
+      margin: 0;
+      color: #333333;
+      font-size: 32px;
+      font-weight: bold;
+      font-family: Microsoft YaHei Regular, Microsoft YaHei Regular-Regular; }
+    .content_title div section {
+      margin-top: 18px;
+      font-size: 14px;
+      font-family: Microsoft YaHei Regular, Microsoft YaHei Regular-Regular;
+      font-weight: 400;
+      color: #9b9b9b; }
+
+@media (max-width: 992px) {
+  .content_title div img {
+    width: 30%; }
+  .content_title div h1 {
+    font-size: 28px; } }
+@media (max-width: 768px) {
+  .content_title {
+    padding-top: 40px;
+    padding-bottom: 36px; }
+    .content_title div h1 {
+      font-size: 24px; } }
+@media (max-width: 640px) {
+  .content_title div img {
+    width: 40%; }
+  .content_title div h1 {
+    font-size: 24px; } }
+@media (max-width: 440px) {
+  .content_title {
+    padding-bottom: 26px; }
+    .content_title div img {
+      width: 50%; }
+    .content_title div h1 {
+      font-size: 24px; }
+    .content_title div section {
+      font-size: 12px; } }
+
+/*# sourceMappingURL=important.css.map */

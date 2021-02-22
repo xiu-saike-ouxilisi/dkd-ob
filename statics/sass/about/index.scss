@@ -1,0 +1,45 @@
+// 全局样式抹平
+@import '../../css/troweling.css';
+
+// bootstrap
+@import '../../css/bootstrap.min.css';
+
+// bootstrap 校验
+@import 'https://cdn.bootcdn.net/ajax/libs/bootstrap-validator/0.5.3/css/bootstrapValidator.css';
+
+// 轮播 swiper
+@import '../../css/swiper-bundle.min.css';
+
+// 通用样式
+@import '../../sass/currency/important.scss';
+
+// 导航栏
+@import '../currency/nav.scss';
+
+// 轮播
+@import '../currency/swiper.scss';
+
+// 简介
+@import './brief.scss';
+
+// 企业文化
+@import './culture.scss';
+
+// 公司资质
+@import './qualifications.scss';
+
+// 团队风采
+@import './team.scss';
+
+// 公益活动
+@import './publicbenefit.scss';
+
+// 位置
+@import './position.scss';
+
+
+// 底部
+@import '../currency/footer.scss';
+
+// 侧边栏
+@import '../currency/contact.scss';

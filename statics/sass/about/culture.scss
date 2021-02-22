@@ -1,0 +1,91 @@
+.culture {
+    width: 100%;
+    padding-bottom: 70px;
+    background-color: #feefef;
+
+    .container {
+        .culture_list {
+            .culture_item {
+                text-align: center;
+                padding: 0;
+                padding-top: 20px;
+                // padding-bottom: 30px;
+
+                div {
+                    width: 80px;
+                    height: 80px;
+                    border-radius: 50%;
+                    background-color: #f70c0c;
+                    margin: 0 auto;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+
+                    img {
+                        width: 60%;
+                        height: auto;
+                    }
+                }
+
+
+                h3 {
+                    color: #333333;
+                    margin-top: 20px;
+                    font-size: 24px;
+                    font-family: Microsoft YaHei Bold, Microsoft YaHei Bold-Bold;
+                    font-weight: 700;
+                }
+
+                section {
+                    margin-top: 20px;
+                    padding: 0 66px;
+                    color: #666666;
+                    font-size: 16px;
+                    font-family: Microsoft YaHei Regular, Microsoft YaHei Regular-Regular;
+                    font-weight: 400;
+                    line-height: 24px;
+
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .culture {
+        padding-bottom: 30px;
+
+        .container {
+            .culture_list {
+                .culture_item {
+                    padding-top: 20px;
+                    padding-bottom: 30px;
+
+                    div {
+                        width: 60px;
+                        height: 60px;
+                        img {
+                            width: 70%;
+                        }
+                    }
+
+                    h3 {
+                        margin-top: 16px;
+                        font-size: 20px;
+                    }
+
+                    section {
+                        margin-top: 10px;
+                        padding: 0 66px;
+                        font-size: 14px;
+                        line-height: 24px;
+                    }
+                }
+                .culture_item:nth-child(1){
+                    padding-top: 0;
+                }
+            }
+        }
+    }
+
+}

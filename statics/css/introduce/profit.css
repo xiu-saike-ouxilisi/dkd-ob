@@ -1,0 +1,78 @@
+.profit {
+  width: 100%;
+  padding-bottom: 70px; }
+  .profit .container .profit_down {
+    position: relative; }
+    .profit .container .profit_down img {
+      width: 33%;
+      height: auto;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%); }
+    .profit .container .profit_down .profit_down_one,
+    .profit .container .profit_down .profit_down_two {
+      padding: 0; }
+      .profit .container .profit_down .profit_down_one .item,
+      .profit .container .profit_down .profit_down_two .item {
+        padding: 0;
+        margin: 0;
+        position: relative; }
+        .profit .container .profit_down .profit_down_one .item div h2,
+        .profit .container .profit_down .profit_down_two .item div h2 {
+          font-size: 24px;
+          font-family: Microsoft YaHei Bold, Microsoft YaHei Bold-Bold;
+          font-weight: 700;
+          color: #f70c0c; }
+        .profit .container .profit_down .profit_down_one .item div section,
+        .profit .container .profit_down .profit_down_two .item div section {
+          margin-top: 14px;
+          font-size: 16px;
+          font-weight: 400;
+          line-height: 24px;
+          color: #666666; }
+      .profit .container .profit_down .profit_down_one .item:nth-child(1),
+      .profit .container .profit_down .profit_down_two .item:nth-child(1) {
+        text-align: right;
+        padding-right: 20px; }
+      .profit .container .profit_down .profit_down_one .item:nth-child(3),
+      .profit .container .profit_down .profit_down_two .item:nth-child(3) {
+        text-align: left;
+        padding-left: 20px; }
+    .profit .container .profit_down .profit_down_two {
+      margin-top: 80px; }
+
+@media (max-width: 768px) {
+  .profit {
+    padding: 0 5%;
+    padding-bottom: 30px; }
+    .profit .container .profit_down {
+      position: relative; }
+      .profit .container .profit_down img {
+        display: none; }
+      .profit .container .profit_down .profit_down_one,
+      .profit .container .profit_down .profit_down_two {
+        padding: 0; }
+        .profit .container .profit_down .profit_down_one .item,
+        .profit .container .profit_down .profit_down_two .item {
+          margin-top: 10px; }
+          .profit .container .profit_down .profit_down_one .item div h2,
+          .profit .container .profit_down .profit_down_two .item div h2 {
+            font-size: 24px; }
+          .profit .container .profit_down .profit_down_one .item div section,
+          .profit .container .profit_down .profit_down_two .item div section {
+            margin-top: 14px;
+            font-size: 16px;
+            line-height: 24px; }
+        .profit .container .profit_down .profit_down_one .item:nth-child(1),
+        .profit .container .profit_down .profit_down_two .item:nth-child(1) {
+          text-align: center;
+          padding-right: 0; }
+        .profit .container .profit_down .profit_down_one .item:nth-child(3),
+        .profit .container .profit_down .profit_down_two .item:nth-child(3) {
+          text-align: center;
+          padding-left: 0; }
+      .profit .container .profit_down .profit_down_two {
+        margin-top: 0; } }
+
+/*# sourceMappingURL=profit.css.map */

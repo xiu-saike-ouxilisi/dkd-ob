@@ -1,0 +1,146 @@
+// 公益活动
+.publicbenefit {
+    width: 100%;
+    padding-bottom: 70px;
+
+    .publicbenefit_down {
+        .item {
+            padding: 0;
+
+            .item_content {
+                width: 90%;
+                margin: 10px auto;
+                padding-bottom: 10px;
+                border-radius: 5px;
+
+                img {
+                    // border: 1px dashed #999999;
+                    border-radius: 5px 5px 0 0;
+                    width: 100%;
+                    height: auto;
+                }
+
+                h3 {
+                    text-align: center;
+                    margin-top: 20px;
+                    font-size: 20px;
+                    font-family: Microsoft YaHei Regular, Microsoft YaHei Regular-Regular;
+                    font-weight: bold;
+                    color: #333333;
+                }
+
+                p {
+                    margin: 0;
+                    padding: 0;
+                    margin-top: 20px;
+                    padding: 0 14px;
+                    font-size: 16px;
+                    font-family: Microsoft YaHei Regular, Microsoft YaHei Regular-Regular;
+                    font-weight: 400;
+                    color: #999999;
+                    overflow: hidden;
+                    text-overflow: ellipsis;
+                    display: -webkit-box;
+                    -webkit-line-clamp: 3;
+                    -webkit-box-orient: vertical;
+                }
+
+                div {
+                    width: 60px;
+                    height: 4px;
+                    background: #ffffff;
+                    display: none;
+                    margin: 0 auto;
+                    margin-top: 10px;
+                }
+
+                .btn {
+                    display: none;
+                    margin: 0 auto;
+                    margin-top: 10px;
+                    color: #ffffff;
+                    background-color: rgba(255, 255, 255, 0);
+                    border: 1px solid #ffffff;
+
+                    a {
+                        color: #ffffff;
+                        text-decoration: none;
+                    }
+
+                    a:hover {
+                        color: #ffffff;
+                    }
+                }
+            }
+
+        }
+
+        .item:hover {
+            .item_content {
+                box-shadow: 0 0 5px 0px rgba(0, 110, 255, 0.15);
+                border-radius: 5px;
+                background-color: #f82424;
+                padding-bottom: 20px;
+
+                h3 {
+                    color: #ffffff;
+                }
+
+                p {
+                    display: none;
+                }
+
+                div {
+                    display: block;
+                }
+
+                .btn {
+                    display: block;
+                }
+            }
+
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .publicbenefit {
+        padding-bottom: 30px;
+        padding: 0 5%;
+
+        .publicbenefit_down {
+            .item {
+                .item_content {
+                    width: 90%;
+                    margin: 10px auto;
+                    padding-bottom: 10px;
+
+                    img {
+                        width: 100%;
+                    }
+
+                    h3 {
+                        margin-top: 20px;
+                        font-size: 18px;
+                    }
+
+                    p {
+                        margin: 0;
+                        padding: 0;
+                        margin-top: 20px;
+                        font-size: 16px;
+                    }
+
+                    div {}
+
+                    .btn {
+                        display: none;
+                    }
+                }
+
+            }
+        }
+    }
+}
+
+@media (max-width: 400px) {}

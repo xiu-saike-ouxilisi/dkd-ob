@@ -1,0 +1,71 @@
+.function {
+  width: 100%;
+  padding-bottom: 70px;
+  background-color: #FEEFEF; }
+  .function .container .function_down .item {
+    width: 29%;
+    height: 190px;
+    margin-left: 3.5%;
+    margin-top: 34px;
+    padding: 40px 26px;
+    background: #ffffff;
+    border-radius: 5px;
+    display: flex; }
+    .function .container .function_down .item .item_left {
+      width: 16%; }
+      .function .container .function_down .item .item_left img {
+        width: 40px;
+        height: auto; }
+    .function .container .function_down .item .item_right {
+      width: 84%;
+      padding-left: 10px; }
+      .function .container .function_down .item .item_right h3 {
+        padding: 0;
+        margin: 0;
+        color: #333333;
+        font-size: 24px;
+        font-family: Microsoft YaHei Regular, Microsoft YaHei Regular-Regular;
+        font-weight: 400; }
+      .function .container .function_down .item .item_right p {
+        margin: 0;
+        padding: 0;
+        margin-top: 10px;
+        color: #666666;
+        font-size: 16px;
+        font-family: Microsoft YaHei Regular, Microsoft YaHei Regular-Regular;
+        font-weight: 400;
+        line-height: 26px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 3; }
+  .function .container .function_down .item:nth-child(1), .function .container .function_down .item:nth-child(2), .function .container .function_down .item:nth-child(3) {
+    margin-top: 0px; }
+
+@media (max-width: 768px) {
+  .function .container .function_down .item {
+    width: 46%; } }
+@media (max-width: 500px) {
+  .function .container .function_down {
+    padding-left: 5%; }
+    .function .container .function_down .item {
+      width: 86%;
+      height: auto;
+      margin-top: 20px;
+      padding: 20px 16px; }
+      .function .container .function_down .item .item_left {
+        width: 16%; }
+        .function .container .function_down .item .item_left img {
+          width: 36px;
+          height: auto; }
+      .function .container .function_down .item .item_right h3 {
+        font-size: 20px; }
+      .function .container .function_down .item .item_right p {
+        font-size: 14px; }
+    .function .container .function_down .item:nth-child(1) {
+      margin-top: 0; }
+    .function .container .function_down .item:nth-child(2), .function .container .function_down .item:nth-child(3) {
+      margin-top: 20px; } }
+
+/*# sourceMappingURL=function.css.map */

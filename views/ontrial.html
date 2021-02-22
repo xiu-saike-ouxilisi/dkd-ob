@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- 主要 -->
+    <!-- <link rel="stylesheet" href="../statics/css/ontrial.css"> -->
+    <link rel="stylesheet" href="../statics/css/ontrial.min.css">
+    <title>ontrial</title>
+
+</head>
+
+<body>
+    <div class="ontrial">
+        <img class="ontrial_bg" src="../statics/images/ontrial/ontrial_bg.png" alt="">
+        <div class="container">
+            <div class="row content">
+                <div class="ontrial_content col-md-2 col-xs-12 .col-sm-12">
+                    <h2>申请代理</h2>
+                    <form action="" method="post" id="classes-form">
+                        <div class="form-group">
+                            <img src="../statics/images/ontrial/icon/icon_1.png" alt="">
+                            <input type="text" class="form-control" name="username" id="username" placeholder="请输入您的姓名">
+                        </div>
+                        <div class="form-group">
+                            <img src="../statics/images/ontrial/icon/icon_2.png" alt="">
+                            <input type="phone" class="form-control" name="phone" id="phone" placeholder="请输入您的联系方式">
+                        </div>
+                        <div class="form-group">
+                            <img src="../statics/images/ontrial/icon/icon_3.png" alt="">
+                            <select id="prov" name="province" onchange="showCity(this)" class="form_inp">
+                                <option value="">请选择省份</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <img src="../statics/images/ontrial/icon/icon_4.png" alt="">
+                            <select id="city" name="city" class="form_inp">
+                                <option value="">请选择城市</option>
+                            </select>
+                        </div>
+                        <button type="submit" id="submit_btn" name="submit" class="btn btn-default">立即申请</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="ontrial_down">温馨提示：收到您的申请信息，我们会安排客户经理尽快与您联系，依据您的具体营销需求，为您开通后台系统。</div>
+        <!--  -->
+        <div class="result">
+            <div class="pop">
+                <img class="pop_title" src="../statics/images/pop_title.png" alt="">
+                <h2>提交成功</h2>
+                <p>客服人员将在24小时内联系您，请您注意接听电话。</p>
+                <button class="btn">我知道了</button>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- jQuery文件。务必在bootstrap.min.js 之前引入 -->
+    <script src="../statics/js/jquery-2.1.4.min.js"></script>
+
+    <!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
+    <script src="../statics/js/bootstrap.min.js"></script>
+    <!-- 表单校验 -->
+    <script src="../statics/js/bootstrapValidator.min.js"></script>
+    <!-- 行政区数据 -->
+    <!-- <script src="../statics/js/addr.js"></script> -->
+    <script src="../statics/js/cityList.js"></script>
+
+    <!--  -->
+    <script src="../statics/js/index.js"></script>
+</body>
+
+</html>

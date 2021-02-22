@@ -1,0 +1,123 @@
+// 简介
+.brief {
+    width: 100%;
+    padding-top: 120px;
+    padding-bottom: 70px;
+
+    .container {
+        .brief_down {
+            .brief_left {
+                h1 {
+                    padding: 0;
+                    margin: 0;
+                    width: 180px;
+                    font-size: 28px;
+                    font-weight: 700;
+                    text-align: left;
+                    color: #333333;
+                    line-height: 36px;
+                    margin-bottom: 40px;
+                    position: relative;
+                }
+
+                h1::after {
+                    position: absolute;
+                    top: 5px;
+                    left: -25px;
+                    content: '';
+                    width: 8px;
+                    height: 66px;
+                    background-color: red;
+                }
+
+
+                p {
+                    width: 90%;
+                    font-size: 16px;
+                    font-weight: 400;
+                    text-align: left;
+                    color: #333333;
+                    margin-bottom: 20px;
+                }
+            }
+
+            .brief_right {
+                padding: 0;
+                padding-left: 88px;
+                display: flex;
+                align-items: center;
+
+                .brief_right_content {
+                    position: relative;
+                    img {
+                        width: 90%;
+                        height: auto;
+                    }
+
+                    .bgc {
+                        width: 70%;
+                        height: 300px;
+                        background-color: red;
+                        position: absolute;
+                        top: 80px;
+                        right: 20px;
+                        z-index: -1;
+                    }
+                }
+            }
+        }
+    }
+
+}
+
+@media (max-width: 768px) {
+    .brief {
+        padding: 0 5%;
+        padding-bottom: 30px;
+
+        .container {
+            .brief_down {
+                .brief_left {
+                    padding-left: 0;
+
+                    h1 {
+                        font-size: 18px;
+                        transform: translate(20px, 0);
+                        margin-bottom: 20px;
+                        line-height: 22px;
+                        width: 80%;
+                    }
+
+                    h1::after {
+                        top: 0;
+                        left: -20px;
+                        width: 8px;
+                        height: 30px;
+                    }
+
+                    p {
+                        width: 100%;
+                    }
+                }
+
+                .brief_right {
+                    margin-top: 20px;
+                    margin-bottom: 30px;
+                    padding: 0;
+
+                    img {
+                        padding-left: 0;
+                        width: 94%;
+                    }
+
+                    .bgc {
+                        width: 70%;
+                        height: 220px;
+                        top: 80px;
+                        right: 0px;
+                    }
+                }
+            }
+        }
+    }
+}

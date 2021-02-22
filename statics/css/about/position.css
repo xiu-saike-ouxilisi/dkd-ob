@@ -1,0 +1,52 @@
+.position {
+  width: 100%;
+  padding-bottom: 70px; }
+  .position .container .position_map {
+    padding: 0; }
+    .position .container .position_map #position_map {
+      width: 100%;
+      height: 340px; }
+  .position .container .position_contact {
+    padding-top: 110px;
+    padding-left: 140px; }
+    .position .container .position_contact div {
+      display: flex; }
+      .position .container .position_contact div section {
+        font-size: 22px;
+        font-weight: bold;
+        color: #666666;
+        width: 130px;
+        margin-top: 10px; }
+      .position .container .position_contact div span {
+        display: inline-block;
+        margin-left: 10px;
+        width: 216px;
+        margin-top: 10px;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 34px; }
+
+@media (max-width: 768px) {
+  .position {
+    padding-bottom: 30px; }
+    .position .position_map {
+      margin-left: 8%; }
+      .position .position_map #position_map {
+        width: 100%;
+        height: 280px; }
+    .position .position_contact {
+      padding-top: 0 !important;
+      padding-left: 0 !important;
+      margin-top: 20px; }
+      .position .position_contact div {
+        width: 100%;
+        padding-left: 7%;
+        margin: 0; }
+        .position .position_contact div section {
+          font-size: 18px;
+          width: 30%; }
+        .position .position_contact div span {
+          font-size: 14px;
+          width: 60%; } }
+
+/*# sourceMappingURL=position.css.map */

@@ -1,0 +1,23 @@
+.brand {
+  width: 100%;
+  padding-bottom: 70px; }
+  .brand .container .brand_down .item {
+    text-align: center;
+    margin-top: 20px; }
+    .brand .container .brand_down .item img {
+      border: 1PX solid #cecece;
+      width: 100%;
+      height: auto; }
+  .brand .container .brand_down .item:nth-child(1), .brand .container .brand_down .item:nth-child(2), .brand .container .brand_down .item:nth-child(3), .brand .container .brand_down .item:nth-child(4), .brand .container .brand_down .item:nth-child(5), .brand .container .brand_down .item:nth-child(6) {
+    margin-top: 0px; }
+
+@media (max-width: 768px) {
+  .brand {
+    padding: 0 5%;
+    padding-bottom: 30px; }
+    .brand .container .brand_down .item img {
+      width: 100%; }
+    .brand .container .brand_down .item:nth-child(4), .brand .container .brand_down .item:nth-child(5), .brand .container .brand_down .item:nth-child(6) {
+      margin-top: 20px; } }
+
+/*# sourceMappingURL=brand.css.map */

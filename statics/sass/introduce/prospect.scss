@@ -1,0 +1,93 @@
+.prospect {
+    width: 100%;
+    padding-top: 120px;
+    padding-bottom: 70px;
+    background-color: #ffffff;
+
+    .container {
+        .prospect_down {
+            .item {
+                padding: 0;
+                margin: 0;
+                padding-top: 40px;
+                padding-bottom: 30px;
+                text-align: center;
+
+                .image {
+                    margin: 0 auto;
+                    width: 77px;
+                    height: 77px;
+                    background-color: #f70c0c;
+                    border-radius: 50%;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+
+                    img {
+                        width: 60%;
+                        height: auto;
+                    }
+                }
+
+                h2 {
+                    margin-top: 20px;
+                    font-size: 24px;
+                    font-family: Microsoft YaHei Bold, Microsoft YaHei Bold-Bold;
+                    font-weight: 700;
+                    color: #333333;
+                }
+
+                section {
+                    margin-top: 20px;
+                    padding: 0 20px;
+                    font-size: 16px;
+                    font-family: Microsoft YaHei Regular, Microsoft YaHei Regular-Regular;
+                    font-weight: 400;
+                    color: #666666;
+                    line-height: 24px;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .prospect {
+        padding-bottom: 30px;
+        padding-top: 0;
+
+        .container {
+
+            .prospect_down {
+                .item {
+                    padding-top: 30px;
+                    padding-bottom: 10px;
+
+                    .image {
+                        width: 44px;
+                        height: 44px;
+
+                        img {}
+                    }
+
+                    h2 {
+                        margin-top: 20px;
+                        font-size: 20px;
+                    }
+
+                    section {
+                        margin-top: 20px;
+                        padding: 0 20px;
+                        font-size: 14px;
+                    }
+                }
+
+                .item:nth-child(1),
+                .item:nth-child(2) {
+                    padding-top: 10px;
+                }
+            }
+        }
+    }
+
+}

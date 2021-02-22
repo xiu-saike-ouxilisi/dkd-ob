@@ -1,0 +1,625 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- introduce -->
+    <!-- <link rel="stylesheet" href="../statics/css/introduce/index.css"> -->
+    <link rel="stylesheet" href="../statics/css/introduce/index.min.css">
+    <title>introduce</title>
+</head>
+
+<body>
+    <div class="introduce">
+        <!-- 首页 -->
+        <!-- 导航栏 开始 -->
+        <nav class="navbar navbar-default navbar-fixed-top nav_index" role="navigation">
+            <div class="container">
+                <div class="container-fluid">
+                    <div class="navbar-header">
+                        <p class="navbar-text navbar-right navbar_phone">
+                            <button type="button" class="btn btn-default">
+                                <a href="./ontrial.html">申请代理</a>
+                            </button>
+                        </p>
+                        <button type="button" class="navbar-toggle navbar_switch" data-toggle="collapse"
+                            data-target="#example-navbar-collapse">
+                            <span class="sr-only">切换导航</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a class="navbar-brand navbar-left" href="#">
+                            <img class="nav_logo" alt="Brand" src="../statics/images/logo.png">
+                        </a>
+                    </div>
+                    <div class="collapse navbar-collapse navbar-right" id="example-navbar-collapse">
+                        <ul class="nav navbar-nav" id="nav_list">
+                            <li><a href="./index.html">首页</a></li>
+                            <li><a href="./index.html">项目介绍</a></li>
+                            <li><a href="./index.html">合作案例</a></li>
+                            <li class="nav_on is_true_Underline"><a href="./introduce.html">招募合伙人</a></li>
+                            <li><a href="./about.html">关于我们</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <!-- 导航栏 结束 -->
+
+        <!-- 补位 -->
+        <div class="complement"></div>
+
+        <!-- 轮播 开始 -->
+        <div class="home_slides">
+            <div id="carousel-example-generic" class="carousel slide " data-ride="carousel">
+                <!-- Indicators -->
+                <!-- <ol class="carousel-indicators">
+                    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                </ol> -->
+
+                <!-- Wrapper for slides -->
+                <div class="carousel-inner" role="listbox">
+                    <div class="item active">
+                        <img src="../statics/images/banner/banner1_bg.png" alt="...">
+                        <div class="carousel-caption">
+                            <!-- 123 -->
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="../statics/images/banner/banner1_bg.png" alt="...">
+                        <div class="carousel-caption">
+                            <!-- 456 -->
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="../statics/images/banner/banner1_bg.png" alt="...">
+                        <div class="carousel-caption">
+                            <!-- 789 -->
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Controls -->
+                <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+            <div id="form" class="form">
+                <div class="container">
+                    <form action="" method="post" id="classes-form" class="from_list">
+                        <div class="form-group">
+                            <label for="disabledTextInput">姓名：</label>
+                            <input type="text" class="form-control" name="username" id="username">
+                        </div>
+                        <div class="form-group">
+                            <label for="disabledTextInput">电话：</label>
+                            <input type="phone" class="form-control" name="phone" id="phone">
+                        </div>
+                        <div class="form-group">
+                            <label for="prov" class="form_type">省份：</label>
+                            <select id="prov" name="province" onchange="showCity(this)" class="form_inp">
+                                <option value="">请选择省份</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="city" class="form_type">城市：</label>
+                            <select id="city" name="city" class="form_inp">
+                                <option value="">请选择城市</option>
+                            </select>
+                        </div>
+                        <button id="submit_btn">提交</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <!-- 轮播 结束 -->
+
+        <!-- 弹窗 -->
+        <div class="result">
+            <div class="pop">
+                <img class="pop_title" src="../statics/images/pop_title.png" alt="">
+                <h2>提交成功</h2>
+                <p>客服人员将在24小时内联系您，请您注意接听电话。</p>
+                <button class="btn">我知道了</button>
+            </div>
+        </div>
+
+        <!-- 项目前景 开始 -->
+        <div class="prospect">
+            <div class="container">
+                <div class="content_title">
+                    <div>
+                        <img src="../statics/images/tit_bg.png" alt="">
+                        <h1>项目前景</h1>
+                        <section>Project prospects</section>
+                    </div>
+                </div>
+                <div class="row prospect_down">
+                    <div class="col-md-3 col-sm-6 col-xs-6 item">
+                        <div class="image"><img src="../statics/images/introduce/prospect/icon_1.png" alt=""></div>
+                        <h2>起步门槛低</h2>
+                        <section>万元投资、无压货保障金等苛刻条让您轻松开启创业之路</section>
+                    </div>
+                    <div class="col-md-3 col-sm-6 col-xs-6 item">
+                        <div class="image"><img src="../statics/images/introduce/prospect/icon_2.png" alt=""></div>
+                        <h2>市场需求大</h2>
+                        <section>产品适用行业范围广泛，商家都在使用短视频营销，受众广泛</section>
+                    </div>
+                    <div class="col-md-3 col-sm-6 col-xs-6 item">
+                        <div class="image"><img src="../statics/images/introduce/prospect/icon_3.png" alt=""></div>
+                        <h2>营收渠道多样</h2>
+                        <section>营收模式灵活多样，落地轻松回本</section>
+                    </div>
+                    <div class="col-md-3 col-sm-6 col-xs-6 item">
+                        <div class="image"><img src="../statics/images/introduce/prospect/icon_4.png" alt=""></div>
+                        <h2>新运营模式</h2>
+                        <section>总部市场落地帮扶、专业视频拍摄剪辑、让代理无后顾之忧</section>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- 项目前景 结束 -->
+
+
+        <!-- 盈利模式 开始 -->
+        <div class="profit">
+            <div class="container">
+                <div class="content_title">
+                    <div>
+                        <img src="../statics/images/tit_bg.png" alt="">
+                        <h1>盈利模式</h1>
+                        <section>profit model</section>
+                    </div>
+                </div>
+                <div class="profit_down">
+                    <img src="../statics/images/introduce/profit_center.png" alt="">
+                    <div class="row profit_down_one">
+                        <div class="col-md-4 col-sm-6 col-xs-12 item">
+                            <div class="item_top">
+                                <h2>01. 直接合作</h2>
+                                <section>直接与商户合作，赚取商家的广告费。全新的流量裂变模式，海量商户资源，落地即收益</section>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6 col-xs-12 item"></div>
+                        <div class="col-md-4 col-sm-6 col-xs-12 item">
+                            <div class="item_top">
+                                <h2>02. 招募代理</h2>
+                                <section>通过招募代理及分销商，赚取代理费及扫码次数的差价</section>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <div class="row profit_down_two">
+                        <div class="col-md-4 col-sm-6 col-xs-12 item">
+                            <div class="item_down">
+                                <h2>03. 额外服务</h2>
+                                <section>通过提供抖音项目相关的额外服务，赚取代理商或商家的技术服务费</section>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6 col-xs-12 item"></div>
+                        <div class="col-md-4 col-sm-6 col-xs-12 item">
+                            <div class="item_down">
+                                <h2>04. 项目合作</h2>
+                                <section>直接与商户合作，赚取商家的广告费。全新的流量裂变模式，海量商户资源，落地即收益</section>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- <div class="row profit_down">
+                    <div class="col-md-4 col-sm-6 col-xs-12 item">
+                        <div class="item_top">
+                            <h2>01. 直接合作</h2>
+                            <section>直接与商户合作，赚取商家的广告费。全新的流量裂变模式，海量商户资源，落地即收益</section>
+                        </div>
+                        <div class="item_down">
+                            <h2>03. 额外服务</h2>
+                            <section>通过提供抖音项目相关的额外服务，赚取代理商或商家的技术服务费</section>
+                        </div>
+                    </div>
+                    <div class="col-md-4 item">
+                        <img src="../statics/images/introduce/profit_center.png" alt="">
+                    </div>
+                    <div class="col-md-4 col-sm-6 col-xs-12 item">
+                        <div class="item_top">
+                            <h2>02. 招募代理</h2>
+                            <section>通过招募代理及分销商，赚取代理费及扫码次数的差价</section>
+                        </div>
+                        <div class="item_down">
+                            <h2>04. 项目合作</h2>
+                            <section>直接与商户合作，赚取商家的广告费。全新的流量裂变模式，海量商户资源，落地即收益</section>
+                        </div>
+                    </div>
+                </div> -->
+            </div>
+        </div>
+        <!-- 盈利模式 结束 -->
+
+        <!-- 代理政策 开始 -->
+        <div class="agent">
+            <div class="container">
+                <div class="content_title">
+                    <div>
+                        <img src="../statics/images/tit_bg.png" alt="">
+                        <h1>代理政策</h1>
+                        <section>Agency policy</section>
+                    </div>
+                </div>
+                <div class="row agent_dowm">
+                    <div class="col-md-12 col-sm-12 col-xs-12 item">
+                        <img class="agent_bg_pc" src="../statics/images/introduce/agent_bg_pc.png" alt="">
+                        <img class="agent_bg_phone" src="../statics/images/introduce/agent_bg_phone.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- 代理政策 结束 -->
+
+        <!-- 代理扶持 开始 -->
+        <div class="support">
+            <div class="container">
+                <div class="content_title">
+                    <div>
+                        <img src="../statics/images/tit_bg.png" alt="">
+                        <h1>代理扶持</h1>
+                        <section>Agency support</section>
+                    </div>
+                </div>
+                <div class="row support_down">
+                    <div class="col-md-4 col-sm-6 col-xs-12 item">
+                        <div class="item_top">
+                            <h2>技术保障</h2>
+                            <section>技术团队均来自北上广大厂，由一群经验丰富的技术骨干构成；保障产品稳定高效。</section>
+                        </div>
+                        <div class="item_down">
+                            <h2>市场落地</h2>
+                            <section>十六年资深市场运营团队多对一落地辅导，前期市场规划，团队搭建、中期落地执行，后期的市场优化均全程跟踪帮扶，让您省心代理。</section>
+                        </div>
+                    </div>
+                    <div class="col-md-4 item">
+                        <img src="../statics/images/introduce/support_center.png" alt="">
+                    </div>
+                    <div class="col-md-4 col-sm-6 col-xs-12 item">
+                        <div class="item_top">
+                            <h2>培训体系</h2>
+                            <section>专业的售后客服，手把手培训后台操作、快速上手，6*8小时在线解答疑难。</section>
+                        </div>
+                        <div class="item_down">
+                            <h2>物料支持</h2>
+                            <section>提供市场推广所用物料，合同、宣传册、海报、展架等相关素材。</section>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- 代理扶持 结束 -->
+
+        <!-- 签约花絮 开始 -->
+        <div class="signinggags">
+            <div class="container">
+                <div class="content_title">
+                    <div>
+                        <img src="../statics/images/tit_bg.png" alt="">
+                        <h1>签约花絮</h1>
+                        <section>Signing gags</section>
+                    </div>
+                </div>
+                <div class="row signinggags_down">
+                    <div class="swiper-container col-md-12 col-sm-12 col-xs-12">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <img src="../statics/images/introduce/signinggags/icon_1.png" alt="">
+                                <img src="../statics/images/introduce/signinggags/icon_2.png" alt="">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="../statics/images/introduce/signinggags/icon_3.png" alt="">
+                                <img src="../statics/images/introduce/signinggags/icon_4.png" alt="">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="../statics/images/introduce/signinggags/icon_5.png" alt="">
+                                <img src="../statics/images/introduce/signinggags/icon_6.png" alt="">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="../statics/images/introduce/signinggags/icon_1.png" alt="">
+                                <img src="../statics/images/introduce/signinggags/icon_2.png" alt="">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="../statics/images/introduce/signinggags/icon_3.png" alt="">
+                                <img src="../statics/images/introduce/signinggags/icon_4.png" alt="">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="../statics/images/introduce/signinggags/icon_5.png" alt="">
+                                <img src="../statics/images/introduce/signinggags/icon_6.png" alt="">
+                            </div>
+                        </div>
+                        <div class="down_operation">
+                            <div class="down_operation_left">
+                                <img src="../statics/images/left.png" alt="">
+                            </div> 
+                            <div class="down_operation_center">切换浏览</div>
+                            <div class="down_operation_right">
+                                <img src="../statics/images/right.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- 签约花絮 结束 -->
+
+        <!-- 申请流程 开始 -->
+        <div class="apply">
+            <div class="container">
+                <div class="content_title">
+                    <div>
+                        <img src="../statics/images/tit_bg.png" alt="">
+                        <h1>申请流程</h1>
+                        <section>Application process</section>
+                    </div>
+                </div>
+                <div class="row apply_down">
+                    <div class="col-md-2 col-sm-2 col-xs-4 item">
+                        <div>
+                            <h1>01</h1>
+                        </div>
+                        <section>提交</section>
+                        <section>合作申请</section>
+                    </div>
+                    <div class="col-md-2 col-sm-2 col-xs-4 item">
+                        <div>
+                            <h1>02</h1>
+                        </div>
+                        <section>意向考察</section>
+                        <section>及初级洽谈</section>
+                    </div>
+                    <div class="col-md-2 col-sm-2 col-xs-4 item">
+                        <div>
+                            <h1>03</h1>
+                        </div>
+                        <section>资质审核</section>
+                        <section>细节确认</section>
+                    </div>
+                    <div class="col-md-2 col-sm-2 col-xs-4 item">
+                        <div>
+                            <h1>04</h1>
+                        </div>
+                        <section>签订</section>
+                        <section>合约协议</section>
+                    </div>
+                    <div class="col-md-2 col-sm-2 col-xs-4 item">
+                        <div>
+                            <h1>05</h1>
+                        </div>
+                        <section>后台及市场</section>
+                        <section>落地培训</section>
+                    </div>
+                    <div class="col-md-2 col-sm-2 col-xs-4 item">
+                        <div>
+                            <h1>06</h1>
+                        </div>
+                        <section>正式开展</section>
+                        <section>业务运营</section>
+                    </div>
+                    <div class="col-md-10 col-sm-10 col-xs-10 line"></div>
+                    <div class="col-xs-8 line1"></div>
+                    <div class="col-xs-8 line2"></div>
+                </div>
+            </div>
+        </div>
+        <!-- 申请流程 结束 -->
+
+        <!-- 品牌合作 开始 -->
+        <div class="brand">
+            <div class="container">
+                <div class="content_title">
+                    <div>
+                        <img src="../statics/images/tit_bg.png" alt="">
+                        <h1>品牌合作</h1>
+                        <section>company introduce</section>
+                    </div>
+                </div>
+                <div class="row brand_down">
+                    <div class="col-md-2 col-sm-3 col-xs-4 item">
+                        <img src="../statics/images/home/brand/icon_1.png" alt="">
+                    </div>
+                    <div class="col-md-2 col-sm-3 col-xs-4 item">
+                        <img src="../statics/images/home/brand/icon_2.png" alt="">
+                    </div>
+                    <div class="col-md-2 col-sm-3 col-xs-4 item">
+                        <img src="../statics/images/home/brand/icon_3.png" alt="">
+                    </div>
+                    <div class="col-md-2 col-sm-3 col-xs-4 item">
+                        <img src="../statics/images/home/brand/icon_4.png" alt="">
+                    </div>
+                    <div class="col-md-2 col-sm-3 col-xs-4 item">
+                        <img src="../statics/images/home/brand/icon_5.png" alt="">
+                    </div>
+                    <div class="col-md-2 col-sm-3 col-xs-4 item">
+                        <img src="../statics/images/home/brand/icon_6.png" alt="">
+                    </div>
+                    <div class="col-md-2 col-sm-3 col-xs-4 item">
+                        <img src="../statics/images/home/brand/icon_7.png" alt="">
+                    </div>
+                    <div class="col-md-2 col-sm-3 col-xs-4 item">
+                        <img src="../statics/images/home/brand/icon_8.png" alt="">
+                    </div>
+                    <div class="col-md-2 col-sm-3 col-xs-4 item">
+                        <img src="../statics/images/home/brand/icon_9.png" alt="">
+                    </div>
+                    <div class="col-md-2 col-sm-3 col-xs-4 item">
+                        <img src="../statics/images/home/brand/icon_10.png" alt="">
+                    </div>
+                    <div class="col-md-2 col-sm-3 col-xs-4 item">
+                        <img src="../statics/images/home/brand/icon_11.png" alt="">
+                    </div>
+                    <div class="col-md-2 col-sm-3 col-xs-4 item">
+                        <img src="../statics/images/home/brand/icon_12.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- 品牌合作 结束 -->
+
+
+        <!-- 底部 开始 -->
+        <div class="footer">
+            <div class="footer_top">
+                <img src="../statics/images/footer_top.png" alt="">
+                <div class="container footer_top_content">
+                    <h1>抖音风口正当其时，邀您共享蓝海市场</h1>
+                    <button class="btn" id="btn"><a href="">申请代理</a></button>
+                </div>
+            </div>
+            <div class="footer_down">
+                <div class="container">
+                    <div class="row footer_middle">
+                        <div class="col-md-4 col-sm-6 col-xs-10 footer_middle_left">
+                            <img class="logo" src="../statics/images/logo.png" alt="">
+                            <h4>——抖音同城霸屏获客引流系统</h4>
+                            <img class="code" src="../statics/images/code.png" alt="">
+                            <section>客服咨询热线；4008-654-655</section>
+                        </div>
+                        <div class="col-md-3 col-sm-6 col-xs-10 footer_middle_center">
+                            <ul>
+                                <li><a href="">友情链接</a></li>
+                                <li><a href="">智网网络</a></li>
+                                <li><a href="">拓客来</a></li>
+                                <li><a href="">码上拓客</a></li>
+                                <li><a href="">拓客多多</a></li>
+                            </ul>
+                            <ul>
+                                <li><a href="">产品中心</a></li>
+                                <li><a href="">防伪系统</a></li>
+                                <li><a href="">溯源系统</a></li>
+                                <li><a href="">红包促销</a></li>
+                                <li><a href="">积分商城</a></li>
+                                <li><a href="">防窜预报</a></li>
+                                <li><a href="">大数据分析</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-md-5 col-sm-10 col-xs-12 footer_middle_right">
+                            <ul>
+                                <li><a href="">关于我们</a></li>
+                                <li><a href="">团队风采</a></li>
+                                <li><a href="">联系我们</a></li>
+
+                            </ul>
+                            <ul>
+                                <li><a href="">联系我们</a></li>
+                                <li><a href="">咨询热线：4008-654-655</a></li>
+                                <li><a href="">微信客服：lyzhp001
+                                        <br>
+                                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;zwwl3079</a>
+                                </li>
+                                <li><a href="">公司地址：河南省洛阳市西工区信息 科技城3079</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="footer_last">
+                        <section>版权所有洛阳智网网络科技有限公司豫ICP备12039819号-2</section>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <!-- 底部 结束 -->
+
+
+        <!-- 侧边栏 开始 -->
+        <div id="scroll-nav" class="hidden-xs scroll-nav">
+            <ul class="nav nav-pills nav-stacked">
+                <li role="presentation" class="bg_WeChat">
+                    <a href="javascript:void(0)">
+                        <img src="../statics/images/contact/wechat_side.png" alt="" srcset="" />
+                        <div>微信咨询</div>
+                    </a>
+                    <div class="qrCodeImg">
+                        <img src="../statics/images/wexin.jpg" alt="" srcset="" />
+                    </div>
+                </li>
+                <li role="presentation" class="bg_officialaccount">
+                    <a href="javascript:void(0)">
+                        <img src="../statics/images/contact/public_side.png" alt="" srcset="" />
+                        <div>公众号</div>
+                    </a>
+                    <div class="qrCodeImg">
+                        <img src="../statics/images/mdm.jpg" alt="" srcset="" />
+                    </div>
+                </li>
+                <li role="presentation" class="phone_side bg_phone">
+                    <a href="javascript:void(0)">
+                        <img src="../statics/images/contact/phone_side.png" alt="" srcset="" />
+                        <div>电话咨询</div>
+                    </a>
+                    <div class="phone">135-2459-1185</div>
+                </li>
+                <li role="presentation" class="top_side">
+                    <a href="javascript:void(0)" id="back-to-top">
+                        <img src="../statics/images/contact/top_side.png" alt="" srcset="" />
+                        <div>返回顶部</div>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <!-- 侧边栏  结束 -->
+    </div>
+
+
+    <!-- jQuery文件。务必在bootstrap.min.js 之前引入 -->
+    <script src="../statics/js/jquery-2.1.4.min.js"></script>
+    <!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
+    <script src="../statics/js/bootstrap.min.js"></script>
+    <!-- 表单校验 -->
+    <script src="../statics/js/bootstrapValidator.min.js"></script>
+    <!-- 行政区数据 -->
+    <!-- <script src="../statics/js/addr.js"></script> -->
+    <script src="../statics/js/cityList.js"></script>
+
+    <!-- swiper插件 -->
+    <script src="../statics/js/swiper-bundle.min.js"></script>
+    <!-- 轮播-->
+    <script>
+        var thisWidth = $(window).width(); //浏览器当前窗口可视区域宽度
+        if (thisWidth < 768){
+            var swiper = new Swiper('.signinggags_down .swiper-container', {
+                freeMode: true,
+                loop: true, //循环
+                // speed: 5000, //滚动速度
+                slidesPerView: 2, //slide可见数量
+                spaceBetween: 10, //slide之间的距离（单位px）
+                navigation: {
+                    nextEl: '.down_operation_left',
+                    prevEl: '.down_operation_right',
+                },
+            });
+        } else {
+            var swiper = new Swiper('.signinggags_down .swiper-container', {
+                freeMode: true,
+                loop: true, //循环
+                // speed: 5000, //滚动速度
+                slidesPerView: 3, //slide可见数量
+                spaceBetween: 10, //slide之间的距离（单位px）
+                navigation: {
+                    nextEl: '.down_operation_left',
+                    prevEl: '.down_operation_right',
+                },
+            });
+        }
+        
+    </script>
+
+    <!-- 通用 -->
+    <script src="../statics/js/index.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,90 @@
+.publicbenefit {
+  width: 100%;
+  padding-bottom: 70px; }
+  .publicbenefit .publicbenefit_down .item {
+    padding: 0; }
+    .publicbenefit .publicbenefit_down .item .item_content {
+      width: 90%;
+      margin: 10px auto;
+      padding-bottom: 10px;
+      border-radius: 5px; }
+      .publicbenefit .publicbenefit_down .item .item_content img {
+        border-radius: 5px 5px 0 0;
+        width: 100%;
+        height: auto; }
+      .publicbenefit .publicbenefit_down .item .item_content h3 {
+        text-align: center;
+        margin-top: 20px;
+        font-size: 20px;
+        font-family: Microsoft YaHei Regular, Microsoft YaHei Regular-Regular;
+        font-weight: bold;
+        color: #333333; }
+      .publicbenefit .publicbenefit_down .item .item_content p {
+        margin: 0;
+        padding: 0;
+        margin-top: 20px;
+        padding: 0 14px;
+        font-size: 16px;
+        font-family: Microsoft YaHei Regular, Microsoft YaHei Regular-Regular;
+        font-weight: 400;
+        color: #999999;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        -webkit-line-clamp: 3;
+        -webkit-box-orient: vertical; }
+      .publicbenefit .publicbenefit_down .item .item_content div {
+        width: 60px;
+        height: 4px;
+        background: #ffffff;
+        display: none;
+        margin: 0 auto;
+        margin-top: 10px; }
+      .publicbenefit .publicbenefit_down .item .item_content .btn {
+        display: none;
+        margin: 0 auto;
+        margin-top: 10px;
+        color: #ffffff;
+        background-color: rgba(255, 255, 255, 0);
+        border: 1px solid #ffffff; }
+        .publicbenefit .publicbenefit_down .item .item_content .btn a {
+          color: #ffffff;
+          text-decoration: none; }
+        .publicbenefit .publicbenefit_down .item .item_content .btn a:hover {
+          color: #ffffff; }
+  .publicbenefit .publicbenefit_down .item:hover .item_content {
+    box-shadow: 0 0 5px 0px rgba(0, 110, 255, 0.15);
+    border-radius: 5px;
+    background-color: #f82424;
+    padding-bottom: 20px; }
+    .publicbenefit .publicbenefit_down .item:hover .item_content h3 {
+      color: #ffffff; }
+    .publicbenefit .publicbenefit_down .item:hover .item_content p {
+      display: none; }
+    .publicbenefit .publicbenefit_down .item:hover .item_content div {
+      display: block; }
+    .publicbenefit .publicbenefit_down .item:hover .item_content .btn {
+      display: block; }
+
+@media (max-width: 768px) {
+  .publicbenefit {
+    padding-bottom: 30px;
+    padding: 0 5%; }
+    .publicbenefit .publicbenefit_down .item .item_content {
+      width: 90%;
+      margin: 10px auto;
+      padding-bottom: 10px; }
+      .publicbenefit .publicbenefit_down .item .item_content img {
+        width: 100%; }
+      .publicbenefit .publicbenefit_down .item .item_content h3 {
+        margin-top: 20px;
+        font-size: 18px; }
+      .publicbenefit .publicbenefit_down .item .item_content p {
+        margin: 0;
+        padding: 0;
+        margin-top: 20px;
+        font-size: 16px; }
+      .publicbenefit .publicbenefit_down .item .item_content .btn {
+        display: none; } }
+
+/*# sourceMappingURL=publicbenefit.css.map */

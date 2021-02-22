@@ -1,0 +1,139 @@
+// 团队风采
+.team {
+    width: 100%;
+    padding-bottom: 70px;
+    #certify {
+        position: relative;
+        .swiper-container {
+            .swiper-wrapper {
+                border-radius: 20px;
+                .swiper-slide {
+                    width: 520px;
+                    // height: 400px;
+                    background: #fff;
+                    box-shadow: 0 8px 30px #ddd;
+                    border-radius: 20px;
+                    cursor: pointer;
+
+                    img {
+                        display: block;
+                        width: 100%;
+                        height: auto;
+                        border: 12px solid #d7e8fc;
+                        border-radius: 20px;
+                    }
+                    img::-webkit-scrollbar-track-piece{
+                        // border-radius: 20px;
+                        // background-color: rgba(255, 255, 255, 0);
+                        display: none;
+                    }
+                }
+                .swiper-slide:-webkit-scrollbar-track-piece{
+                    // border-radius: 20px;
+                    // background-color: rgba(255, 255, 255, 0);
+                    display: none;
+                }
+            }
+        }
+
+        .swiper-button-prev {
+            transform: translate(180px, 0);
+            outline: none !important;
+            color: #de2226;
+            font-weight: 700;
+        }
+
+        .swiper-button-prev:hover {
+            color: #de2226;
+            // border: 1px solid #006eff;
+        }
+
+        .swiper-button-next {
+            transform: translate(-180px, 0);
+            outline: none !important;
+            color: #de2226;
+            font-weight: 700;
+        }
+
+        .swiper-button-next:hover {
+            color: #de2226;
+            // border: 1px solid #006eff;
+        }
+    }
+
+}
+
+@media (max-width: 992px) {
+    .team {
+        padding-bottom: 40px;
+
+        #certify {
+            .swiper-container {
+                .swiper-wrapper {
+                    .swiper-slide {
+                        width: 380px;
+                        height: 290px;
+
+                        img {
+                            width: 100%;
+                        }
+                    }
+                }
+            }
+
+            .swiper-button-prev {
+                display: none;
+            }
+
+            .swiper-button-prev:hover {
+                display: none;
+            }
+
+            .swiper-button-next {
+                display: none;
+            }
+
+            .swiper-button-next:hover {
+                display: none;
+            }
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .team {
+        padding-bottom: 20px;
+
+        #certify {
+            .swiper-container {
+                margin-left: 8%;
+
+                .swiper-wrapper {
+                    .swiper-slide {
+                        width: 300px;
+                        height: 200px;
+
+                        img {}
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 500px) {
+    .team {
+        #certify {
+            .swiper-container {
+                .swiper-wrapper {
+                    .swiper-slide {
+                        width: 220px;
+                        height: 170px;
+
+                        img {}
+                    }
+                }
+            }
+        }
+    }
+}

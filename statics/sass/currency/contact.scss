@@ -1,0 +1,91 @@
+// 
+.scroll-nav {
+    position: fixed;
+    top: 20%;
+    right: 0;
+    width: 80px;
+    background: #fff;
+    z-index: 200;
+
+    .nav-stacked {
+        li {
+            height: 100px;
+            font-size: 12px;
+            text-align: center;
+
+            a {
+                color: #fff;
+                padding: 22px 15px;
+                border-radius: 0;
+                background-color: initial;
+
+                img {
+                    width: 30px;
+                    margin-bottom: 10px
+                }
+
+            }
+
+            .qrCodeImg {
+                display: none;
+                height: 100px;
+                position: relative;
+                right: 105px;
+                bottom: 101px;
+
+                img {
+                    width: 101px;
+                    height: 101px;
+                }
+
+            }
+
+            .phone {
+                position: relative;
+                bottom: 60px;
+                left: 80px;
+                color: white;
+                font-size: 15px;
+                text-align: left;
+            }
+        }
+
+        li:hover {
+            .qrCodeImg {
+                display: block;
+            }
+        }
+
+        .phone_side {
+            transition: all 1s;
+            -moz-transition: all 1s;
+            -webkit-transition: all 1s;
+            -o-transition: all 1s;
+            width: 190px;
+            right: 0px;
+
+            a {
+                width: 80px
+            }
+        }
+
+        .phone_side:hover {
+            right: 110px;
+        }
+
+        .top_side {
+            background: #ABABAB;
+        }
+    }
+
+    .bg_WeChat {
+        background: #5ad94c ;
+    }
+
+    .bg_officialaccount {
+        background: #f5a623;
+    }
+    .bg_phone {
+        background: #4a90e2;
+    }
+}
