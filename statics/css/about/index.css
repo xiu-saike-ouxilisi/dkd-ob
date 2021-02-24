@@ -920,4 +920,14 @@ button {
   .scroll-nav .bg_phone {
     background: #4a90e2; }
 
+@media (max-width: 1440px) {
+  html {
+    zoom: 75%; } }
+@media (max-width: 1360px) {
+  html {
+    zoom: 75%; } }
+@media (max-width: 768px) {
+  html {
+    zoom: 100%; } }
+
 /*# sourceMappingURL=index.css.map */

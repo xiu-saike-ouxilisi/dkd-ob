@@ -294,6 +294,10 @@ button {
   width: 100%;
   height: 800px; }
 
+@media (max-width: 1360px) {
+  .home_slides #carousel-example-generic .carousel-inner .item img {
+    width: 100%;
+    height: 700px; } }
 @media (max-width: 768px) {
   .home_slides #carousel-example-generic .carousel-inner .item img {
     width: 100%;
@@ -1180,5 +1184,15 @@ button {
     background: #f5a623; }
   .scroll-nav .bg_phone {
     background: #4a90e2; }
+
+@media (max-width: 1440px) {
+  html {
+    zoom: 75%; } }
+@media (max-width: 1360px) {
+  html {
+    zoom: 75%; } }
+@media (max-width: 768px) {
+  html {
+    zoom: 100%; } }
 
 /*# sourceMappingURL=index.css.map */

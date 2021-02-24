@@ -30,6 +30,20 @@
         }
     }
 }
+@media (max-width: 1360px){
+    .home_slides{
+        #carousel-example-generic{
+            .carousel-inner{
+                .item{
+                    img{
+                        width: 100%;
+                        height: 700px;
+                    }
+                }
+            }
+        }
+    }
+}
 @media (max-width: 768px){
     .home_slides{
         #carousel-example-generic{
@@ -77,3 +91,19 @@
 
 // 侧边栏
 @import '../currency/contact.scss';
+
+@media (max-width: 1440px){
+    html {
+        zoom: 75%;
+    }
+}
+@media (max-width: 1360px){
+    html {
+        zoom: 75%;
+    }
+}
+@media (max-width: 768px){
+    html {
+        zoom: 100%;
+    }
+}
